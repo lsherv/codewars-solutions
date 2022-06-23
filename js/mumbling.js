@@ -10,7 +10,7 @@ function accum(s) {
     let mumble = ''
     
     for (let i = 0; i < s.length; i++){
-      toRepeat = s.charAt([i])
+      let toRepeat = s.charAt([i])
       
       mumble += toRepeat.toUpperCase()
       mumble += toRepeat.toLowerCase().repeat(i)
